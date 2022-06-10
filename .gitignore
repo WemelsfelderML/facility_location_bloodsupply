@@ -1,0 +1,33 @@
+# folders
+*/
+
+# pre processing files
+*.ipynb
+
+# data files
+*.csv
+*.pickle
+*.xml
+*.odp
+*.ods
+
+# output files
+*.html
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# test files
+# *.ipynb
+*.pptx
+*.xlsx
+*.txt
+
+# cache
+__pycache__/
+.cache
+.pytest_cache/
+*.log
+.ipynb_checkpoints
+ipython_config.py
