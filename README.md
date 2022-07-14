@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Determining optimal locations for blood distribution centers
 In this repository you can find the code corresponding to the paper "Determining optimal locations for blood distribution centers". 
 
@@ -62,3 +63,9 @@ TRANSPORTS contains the type of transports that is considered, being "direct", "
 P_CAT states whether different product types (slow-movers and fast-movers) are distinguished, being either _True_ or _False_.
 
 If you wish to visualize the results on a map, you should create a Mapbox account and generate a token. Set the value of parameter MAPBOX_TOKEN to this token.
+=======
+# facility_location_bloodsupply
+In this repository you can find the code corresponding to the paper "Determining optimal locations for blood distribution centers". 
+
+# Settings
+>>>>>>> a50b7aaa778dde0f6e001a34d74c93a385bcc61e
