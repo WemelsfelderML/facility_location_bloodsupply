@@ -21,7 +21,7 @@ def main():
 	COUNTRY = "NL"
 
 	HOME_DIR = ""											# Path to the directory where this file is stored (ending with a "/")
-	INPUT_DIR = HOME_DIR + "../../data_"+COUNTRY+"/"		# Path were the data is stored.
+	INPUT_DIR = HOME_DIR + "/data_"+COUNTRY+"/"		# Path were the data is stored.
 
 	# Determine the set of locations that distribution centers can be placed.
 	# E (current distr. centers), F (E + all hospitals), Q (F + greenfield points)
@@ -125,7 +125,7 @@ def main():
 	#  lat    float64	latitude
 	#  lon    float64	longitude
 	if len(SCENARIO_NAME) > 0:
-		lonlat = pd.read_csv(INPUT_DIR+"R_"+SCENARIO_NAME+".csv", index_col="name", sep=",", encoding = "1250")
+		lonlat = pd.read_csv(INPUT_DIR+"F_"+SCENARIO_NAME+".csv", index_col="name", sep=",", encoding = "1250")
 	else:
 		lonlat = pd.read_csv(INPUT_DIR+"F.csv", index_col="name", sep=",", encoding = "1250")
 
